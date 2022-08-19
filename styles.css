@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins&display=swap');
+/* base Style */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #e5e7eb;
+}
+
+p{
+    font-size: 1.6rem;
+    line-height: 1.4;
+}
+
+
+/* main style */
+#wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* left */
+.image_display{
+    width: 40%;
+    height: 100%;
+    background: url(./image\ 1.jpg) no-repeat center/cover;
+    position: relative;
+}
+
+.odin{
+    height: 10rem;
+}
+
+.logo{
+    width: 100%;
+    height: 11rem;
+    background-color:rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 25%;
+}
+
+.logo h1{
+    font-weight: bold;
+    font-size: 5.4rem;
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+}
+
+/* right */
+
+.details{
+    width: 60%;
+    margin: 5rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.message{
+    width: 70%;
+    padding-left: 2rem;
+}
+
+.note{
+    margin: 2rem 0 4rem ;
+
+}
+
+.white_space{
+    background:#fff;
+    padding: 0.5rem 2rem;
+    box-shadow: 0 0.1rem 0.3rem rgb(171, 169, 169);
+}
+
+.white_space h1{
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+
+.form_wrapper{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.form1{
+    margin-right: 10%;
+}
+
+label{
+    font-size: 1rem;
+}
+
+
+.white_space input{
+    font-size: 1.2rem;
+    padding: 0.2rem 0.7rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0.4rem;
+    border: 0.2rem solid #e5e7eb;
+    outline: none;
+}
+
+/* pseudo class for input */
+
+.white_space input:focus{
+    border-right: 0.3rem  solid blue ;
+    border-bottom: 0.3rem  solid blue ;
+}
+
+
+
+/* password check */
+#password1{
+    margin-bottom: 0;
+}
+
+
+.passwordCheck{
+    font-size: 1rem;
+}
+
+.button{
+    padding: 1rem 3rem;
+    background: #596d48;
+    display: inline-block;
+    margin: 2rem 2rem;
+    color: #fff;
+    font-size: 1.6rem;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+}
+
+.log_in p{
+    display: inline;
+    margin-left: 2rem;
+}
+
+.log_in a{
+    font-size: 1.5rem;
+    color: #596d48;
+}
+
+
+/* media Queries */
+@media only screen and (max-width: 1000px){
+    *{
+        font-size: 55%;
+    }
+
+    .white_space input{
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    *{
+        font-size: 50%;
+    }
+
+    .white_space input{
+        font-size: 0.75rem;
+    }
+
+}
+
+@media only screen and (max-width: 500px){
+    #wrapper{
+        height: 50%;
+    }
+
+    *{
+        font-size: 30%;
+    }
+
+    .white_space input{
+        font-size: 0.6rem;
+    }
+}
+
+
+/* MEDIA QUERY FOR MOBILE VIEW */
+
+/* @media only screen and (max-width: 500px){
+    #wrapper{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        transform: scale(1);
+    }
+
+    .image_display{
+        width: 100%;
+        height: 430px;
+        background: url(./image\ 1.jpg) no-repeat center/cover;
+        position: relative;
+    }
+
+    .details{
+        width: 100%;
+    }
+
+    .message{
+        width: 100%;
+        padding-right: 2rem;
+    }
+
+    *{
+        font-size: 50%;
+    }
+} */
+
