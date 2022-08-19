@@ -8,9 +8,8 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://dimma01/Side-Hustle-Assignment-1/">
+    <a href="https://github.com/dimma01/Side-Hustle-Assignment-1">
       Solution
     </a>
 
 - GitHub [@dimma01](https://github.com/dimma01)
-- Twitter [@your-twitter](https://{twitter.com/your-username})
