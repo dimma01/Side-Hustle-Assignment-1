@@ -4,11 +4,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://timely-custard-3be858.netlify.app/">
+    <a href="https://dimma01.github.io/Side-Hustle-Assignment-1/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/dimma01/Dev-Challenges/tree/main/Solution%20-%20DevChallenge%20-%20ResponsiveWebsite/404-not-found-master">
+    <a href="https://dimma01/Side-Hustle-Assignment-1/">
       Solution
     </a>
 
